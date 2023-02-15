@@ -39,7 +39,7 @@ button {
     border: none;
     border-radius: 5px;
     font-size: 14px;
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
 p {
@@ -135,7 +135,13 @@ p {
         width: 95%;
         margin: 0 auto;
     }
-    .text__center {
+    .brand__center {
+        text-align: center;
+    }
+    .list__center {
+        text-align: center;
+    }
+    .fact__center {
         text-align: center;
     }
     .header__bg {
@@ -203,6 +209,24 @@ p {
     .experience>h1 {
         color: white;
         margin: 0;
+    }
+    .facts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .facts__card {
+        border: 1px solid #FF900E;
+        width: 140px;
+        padding: 20px;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .facts h2,
+    p {
+        margin: 4px 0;
     }
 }
 
