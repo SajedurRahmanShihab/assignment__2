@@ -39,7 +39,7 @@ button {
     border: none;
     border-radius: 5px;
     font-size: 14px;
-    margin: 25px 0;
+    margin-bottom: 25px;
 }
 
 p {
@@ -130,6 +130,9 @@ p {
 }
 
 @media (max-width: 576px) {
+    button {
+        margin-top: 20px;
+    }
     .container {
         max-width: 576px;
         width: 95%;
@@ -254,3 +257,41 @@ p {
 
 
 /* mobile design end */
+
+
+/* desktop design start */
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* header start */
+
+.header__bg {
+    padding: 20px;
+}
+
+.brand__center {
+    text-align: center;
+}
+
+
+/* header end */
+
+
+/* feaures list start */
+
+
+/* feaures list end */
+
+
+/* features__two start */
+
+
+/* features__two end */
+
+
+/* desktop design end */
