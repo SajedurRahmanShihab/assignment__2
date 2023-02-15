@@ -137,6 +137,7 @@ p {
     }
     .brand__center {
         text-align: center;
+        margin-top: 35px;
     }
     .list__center {
         text-align: center;
@@ -159,6 +160,7 @@ p {
     .navbar-links {
         display: none;
         width: 100%;
+        margin-top: 20px;
     }
     .navbar {
         flex-direction: column;
