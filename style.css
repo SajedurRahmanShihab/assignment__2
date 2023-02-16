@@ -42,6 +42,14 @@ button {
     margin-bottom: 25px;
 }
 
+h1 {
+    font-size: 37px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
 p {
     font-size: 16px;
     color: #727272;
@@ -62,6 +70,13 @@ p {
     font-size: 16px;
     color: #424242;
     font-weight: 500;
+}
+
+
+/* black white image */
+
+.sponsor__img img {
+    filter: grayscale(100%);
 }
 
 
@@ -106,6 +121,7 @@ p {
     text-decoration: none;
     color: black;
     padding: 1rem;
+    margin-left: 20px;
     display: block;
 }
 
