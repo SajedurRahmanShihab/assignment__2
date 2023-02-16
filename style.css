@@ -129,6 +129,9 @@ p {
     width: 146px;
 }
 
+
+/* media query for mobile start */
+
 @media (max-width: 576px) {
     button {
         margin-top: 20px;
@@ -253,45 +256,116 @@ p {
 }
 
 
-/* navbar mobile end */
-
-
-/* mobile design end */
+/* media query for mobile end */
 
 
 /* desktop design start */
 
-.container {
-    max-width: 1200px;
-    width: 90%;
-    margin: 0 auto;
+@media (min-width: 577px) {
+    .container {
+        max-width: 1200px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .navbar {
+        padding: 10px;
+    }
+    .header__bg {
+        margin-bottom: 30px;
+    }
+    .brand__center {
+        text-align: center;
+        padding: 40px;
+    }
+    /* features start */
+    .features__list {
+        margin-bottom: 90px;
+    }
+    .feature__flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .item__1 {
+        width: 45%;
+    }
+    .item__2 {
+        width: 45%;
+    }
+    .features__img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    /* features end */
+    /* features two start */
+    .features__two__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    .features__card {
+        /* border: 2px solid red; */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        padding: 3px 0;
+        margin: 20px 0;
+    }
+    .card {
+        width: 90%;
+        /* border: 2px solid black; */
+        margin: 4px auto;
+    }
+    .experience {
+        background-color: #FF900E;
+        width: 120px;
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        padding: 20px;
+        position: relative;
+        top: -45px;
+    }
+    .experience>p,
+    .experience>h1 {
+        color: white;
+        margin: 0;
+    }
+    /* features two end */
+    /* facts start */
+    .fact__center {
+        margin-bottom: 40px;
+    }
+    .facts {
+        display: flex;
+        justify-content: space-around;
+    }
+    .facts__card {
+        border: 1px solid #FF900E;
+        width: 140px;
+        padding: 20px;
+        text-align: center;
+        margin: 20px 0;
+    }
+    /* facts end */
+    /* sponsors start */
+    .sponsors {
+        margin-top: 5rem;
+    }
+    .sponsor__center {
+        text-align: center;
+    }
+    .img__flex {
+        display: flex;
+        justify-content: space-around;
+        margin: 60px 0;
+    }
+    /* sponsors end */
+    /* footer start */
+    .footer {
+        background-color: #FFF4E7;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    /* footer end */
 }
-
-
-/* header start */
-
-.header__bg {
-    padding: 20px;
-}
-
-.brand__center {
-    text-align: center;
-}
-
-
-/* header end */
-
-
-/* feaures list start */
-
-
-/* feaures list end */
-
-
-/* features__two start */
-
-
-/* features__two end */
-
-
-/* desktop design end */
