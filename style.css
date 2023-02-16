@@ -65,6 +65,13 @@ p {
 }
 
 
+/* hover effect on card */
+
+.facts__card:hover {
+    background-color: #FF900E;
+}
+
+
 /* universal style end */
 
 
@@ -272,6 +279,7 @@ p {
     }
     .header__bg {
         margin-bottom: 30px;
+        padding-bottom: 30px;
     }
     .brand__center {
         text-align: center;
